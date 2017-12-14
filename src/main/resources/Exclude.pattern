@@ -1,0 +1,5 @@
+<gov.va.vinci.angina.types.Exclude/>
+<gov.va.vinci.angina.types.Exclude/> *<gov.va.vinci.angina.types.CCS/>
+<gov.va.vinci.angina.types.CCS/> *<gov.va.vinci.angina.types.Exclude/>
+<gov.va.vinci.angina.types.CCS_score/> *((/|x|-) *)?<gov.va.vinci.angina.types.Exclude/>
+(NYHA|New\s*york\s*heart\s*association)\s*class\s*<gov.va.vinci.angina.types.CCS_score/> *angina\s*(pectoris)?

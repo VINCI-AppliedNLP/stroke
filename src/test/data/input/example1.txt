@@ -1,0 +1,469 @@
+NIH STROKE SCORE: 16
+
+==================
+
+Impression: improving left posterior MCA stroke
+
+NIH stroke score = 9
+Barthel score = 50
+Modified Rankin = 4
+
+=========================
+
+CPT code:
+Stroke (ICD-9-CM 436.) (Primary)
+
+=================
+
+A/P:
+59 y/o RH WM s/p MI and CABG had sudden onset R hemiparesis and aphasia
+this morning.  He recovered from the aphasia but still has mild right
+hemiparesis.  No aphasia was noted at the moment.  With the history of
+recent GI bleeding and the NIH Stroke Score of 1, he is not a candidate
+for TPA.
+
+=======================
+
+
+
+
+
+NIH STROKE SCORE: 1 (mild right lower face weakness)
+
+Head CT: no evidence of acute bleed or infarct.
+
+
+===============
+
+STATION/GAIT- Unable to access
+
+NIH stroke score: 11
+Alert - 0
+Incorrect Month, age- 2
+
+===============
+
+Factor V leiden mutation, elevated
+anticardiolipin IgM, and possible stroke 1/08; who was transferred from OSH for
+management of L MCA stroke.
+
+================
+
+no tremor,
+ftn wnl.
+stroke score 1 due to aphasia only, has trouble with more than 3-4 word
+sentenses but this is much better than 20min ago when had almost complete
+aphasia.
+
+================
+
+2. New diagnosis of atrial fibrillation.  Since there's no known time of
+initiation, we do no recommend direct current cardioversion due to risk of
+stroke.  Also, this may delay the diagnosis of the syncope.  He's asymptomatic
+and his rate is controlled.  His stroke score is low (0) so no anticoagulation
+is needed (aspirin 325 mg PO daily is adequate).
+
+===========================
+
+
+ 
+OBJECTIVE: Alert, Ox4, no acute distress, VSS. Stroke score is 0. FAST score 
+is 0. Vet verbalized that when supine, "the room was spinning". States he had 
+similar episode last week.
+
+=======================
+
+4.  History of paroxysmal atrial fibrillation, CHADS2 (congestive heart
+    failure, hypertension, age, diabetes, stroke) score equals 5,
+    controlled on digoxin.  
+	
+	====================
+
+	SECONDARY DIAGNOSES:
+1.  Atrial fibrillation on lifelong warfarin.  CHADS (congestive heart
+    failure, hypertension, age, diabetes, stroke) score equals 3.
+	
+	============================
+	
+	SECONDARY DIAGNOSES:  
+1.  Atrial flutter, CHADS2 (congestive heart failure, hypertension, age,
+    diabetes, stroke) score of  2.
+2.  Coronary artery disease. 
+
+========================
+
+Head CT was negative, there was also no significant 
+stenosis of his carotids or intracranial vessels.Initial stroke score was 3 and 
+TPA was not recommended.On re evaluation of patient's c/o, his left arm was 
+better and symptoms improved. Patient was admitted to SCU with Neurology 
+consult.
+
+=========================================
+STROKE RISK/ CHADS2 Score:  +Age,+HTN,+DM, -recent CHF, -Stroke:  Score: 3
+Cardiac Risk Factors include:
+DMII, HTN, and dyslipidemia (no recent lipid profile)
+
+=========================================
+
+ No slurred speech no headache no shortness of 
+breath. At my initial evaluation patient did have a positive Cincinnati 
+prehospital Stroke score and a "stroke alert" and ordered the patient to be 
+immediately transferred to CT
+Past medical history:reviewed in chart
+
+========================================
+
+
+the patient had left sided weakness and 
+slurred speech which was not present prior to when she went into the shower. 
+Patient denies any chest pain pressure. Patient had a Cincinnati prehospital 
+stroke score of 2 and a NIH stroke score of 8. Immediately upon arrival to the 
+emergency room I called a stroke alert and patient was sent to CAT scan.
+Past medical history:reviewed in chart
+
+==========================
+
+The patient 
+was evaluated for stroke risk related to his atrial fibrillation and 
+found to be a CHADS risk stroke score of 0. 
+
+==========================
+
+ He underwent mechanical thrombectomy, which successfully 
+recanalized the artery, bringing his NIH stroke score from 15 to 7. He was 
+admitted to the neurology stroke service for further workup.
+
+================================
+
+
+1. Right MCA stroke; stroke score 4 upon admission. 
+
+==============
+
+NIH Stroke Scale Form
+
+1A:0  Alert; keenly responsive.
+
+1B:1  Answers one question correctly
+
+1C:0  Performs both tasks correctly
+
+BEST GAZE:
+2:0  Normal
+
+VISION:
+3:0  No visual loss
+
+FACIAL PALSY:
+4:0  Normal symmetrical movement
+
+MOTOR ARM AND LEG:
+Left Arm:
+5a:0  No drift, limb holds 90 (or 45) degrees for full 10 (arm) or 5 (leg) 
+seconds.
+ 
+Right Arm:
+5b:0  No drift, limb holds 90 (or 45) degrees for full 10 (arm) or 5 (leg) 
+seconds.
+ 
+Left Leg:
+6a:0  No drift, limb holds 90 (or 45) degrees for full 10 (arm) or 5 (leg) 
+seconds.
+ 
+Right Leg:
+6b:0  No drift, limb holds 90 (or 45) degrees for full 10 (arm) or 5 (leg) 
+seconds.
+ 
+LIMB ATAXIA:
+7:0  Absent.
+
+SENSORY:
+8:0  Normal; no sensory loss.
+
+
+BEST LANGUAGE:
+9:2  Severe aphasia; all communcation is through fragmentary expression; great 
+need for listener interference.
+
+DYSARTHRIA:
+10:0  Normal.
+ 
+EXTINCTION AND INATTENTION (formerly Neglect):
+11:0  No abnormality.
+
+========================================================================= //OVP: This was in the note
+NIH SCORE: 3
+
+
+
+================
+
+NIH stroke score during the time pt was referred was at 3 
+ ==========
+ pt presents with a possible stroke with an NIH stroke scale of 3 and getting 
+better in the ER.
+============
+
+ 2. CVA: Patient was diagnosed yesterday with resolving TIA. Presents today again 
+with story of fall. ABCD2 score of 4 indicates a moderate ~4.1% risk of 
+progression of TIA to stroke (score based on age >60, h/o speech impairment, 
+duration <60 min, h/o DM2. 
+========================
+
+2.  Atrial fibrillation:  No evidence of 
+significant slow ventricular response or pauses noted on the Holter monitor. 
+Continue therapeutic anticoagulation due to a Congestive Heart Failure, 
+Hypertension, Age, Diabetes, and Prior Stroke Score of 3. 
+=====================
+his NIH Stroke Score was a 0.
+=====================
+IV TPA was not given secondary to INR of 1.7 and PT of 19.9. 
+Initial NIH stroke score of 16 decreased to 10 after the scans. The patient 
+developed dysarthria and L facial droop and L sided weakness as a result of his 
+stroke.
+=====================
+Symptoms completely resolved and NIH stroke score of 3 
+returned to 0. 
+=====================
+DIAGNOSIS: 
+1. Spinal cord stroke
+2. COPD
+==============
+His NIH stroke score turned out to be 3. 
+=====================
+Notes a remote hx 
+of stroke (10 yrs ago).
+=====================
+FINAL DIAGNOSES:
+1. New onset atrial fibrillation, likely secondary to
+uncontrolled hypertension along with a previous history of
+heavy alcohol abuse. Normal left ventricular ejection
+fraction, per echocardiogram report, Congestive heart
+failure, Hypertension, Age, Diabetes, prior Stroke score 1.
+Treatment with aspirin.
+====================
+-ASA for 2/2 stroke prevention when taking PO
+====================
+ CT of head 
+negative, all labs negative, and stroke score=4. 
+
+====================
+
+Neuro: NIH STROKE SCALE
+-------------------------------------------- 
+ 
+  Level of Consciousness:
+    0 = Alert: keenly responsive
+  LOC Questions:
+    0 = Answers both questions correctly
+  LOC Commands:
+    0 = Performs both tasks correctly
+  Best Gaze:
+    0 = Normal
+  Visual:
+    0 = No visual loss
+  Facial Palsy:
+    1 = Minor paralysis
+  Motor Arm - Left:
+    0 = No drift.
+  Motor Arm - Right:
+    0 = No Drift
+  Motor Leg - Left:
+    0 = No drift.
+  Motor Leg - Right:
+    0 = No drift.
+  Limb Ataxia:
+    0 = Absent
+  Sensory:
+    0 = Normal
+  Best Language:
+    0 = No aphasia; normal
+  Dysarthria:
+    1 = Mild-moderate, slurs some words
+  Extinction/Inattention:
+    1 = Visual, tactile, auditory  or other extinction to bilateral
+    simultaneous stimulation, but no severe neglect.
+SCORE: 3
+=================
+Pertinent physical findings:
+
+NIH Stroke score: 3/30 (R hemianopia, slight facial droop)
+==================
+3.  Congestive heart failure, hypertension, age, diabetes mellitus, and 
+stroke score 2 (CHADS2) is zero.
+==================
+he has coronary artery disease, so  cholesterol, hypertension, diabetes, 
+vascular disease, age, sex (CHA2DS2-VASc) probably considered 1. 
+=================
+NIH stroke scale 3-4. 
+=================
+Blood Pressure Repeated (Manually): 132/80
+Cleveland stroke score: 2%
+==================
+1.  Paroxysmal atrial fibrillation due to combination of things including 
+obstructive sleep apnea, hypertension, dysglycemia, coronary artery 
+disease with a Congestive heart failure, hypertension, age, diabetes, prior 
+stroke score (CHADS) VAS score of 4, for which I would probably place 
+him on Coumadin, as he appears to be in an irregularly irregular rhythm 
+today. 
+===================
+His NIHSS is 15 with severe 
+aphasia (unable to repeat, acalculia, anomia, but with fluency) and right-sided 
+weakness and numbness as well as a complete right hemianopia. 
+===================
+NIH stroke score at discharge was 0 points.
+===================
+NEURO CONSULT: Neuro Exam:  NIH Stroke Score at 18:30 = 8, at 19:30 = 8
+===================
+1. CVA:    symptoms present >24hrs. NIH Stroke Score: 6-- Diffusion-weighted MRI 
+(ordered)-- carotid  doppler (ordered)-- EKG/telemetry -- Echocardiogram 
+(ordered)...
+===================
+pt with NIH stroke scale 
+of 17.  On arrival to UCLA, NIH stroke score had increased to 23.
+===================
+his symptoms were already notably 
+improved, with resolution of his numbness and improvement of his weakness, and 
+ED/medicine teams assessed an NIH stroke score < 3.
+===================
+The NIH stroke score is calculated at 2.
+===================
+Vitals: Temp:98 BP:153-161/91-106 P:79-86 R:20 O2sat:96%(RA)
+NIHSS at 19:20 - 1 (sensory)
+Gen: in no acute distress
+====================
+NIHSS: 0 
+====================
+He had +Babinski on his R side with some mild R facial 
+droop.  His NIH stroke score was 8-9.  TPA was briefly considered
+====================
+ NIH stroke score was zero. 
+====================
+Impression: The patient has an apparent basilar artery thrombosis causing severe 
+stroke symptoms and comatose state.  His NIH stroke scale is 37.  I think he has 
+a very poor prognosis
+====================
+NIH stroke score of 9 was given for ? (1) right homonymous hemianopsia, (2)
+complete facial palsy, (1) mild drift of the left leg. His language appeared 
+intact as he attempted to describe pictures and read sentences, but very 
+difficult to understand 2/2 severe (2) dysarthria. He seemed to have some 
+neglect on the right hand (1), and complained of decreaewsd sensation on the 
+left (1). 
+====================
+On initial assessment the patient had significant right sided weakness
+throughout and a NIH stroke score of only 1 for drift of his RUE.
+====================
+Chief admitting dx:
+        Stroke with NIH stroke score of 19.
+====================
+NIH stroke score approx. 17.
+====================
+LABS/STUDIES:
+NIH Stroke Score in E&A= 5 (2 for facial droop, 1 for dysarthria, 2 for
+irregular VF deficit on L eye likely related to old vitreous hemorrhage)
+====================
+NIH stroke score 27/78
+initially, improved to 17 after 24 hours.
+====================
+
+
+NIH (National Institutes of Health) STROKE SCALE
+Is patient an IV t-PA candidate? No Indicate when NIH Stroke Scale was
+completed: Other: 72h after onset of symptoms
+1a. LEVEL OF CONSCIOUSNESS (LOC) 0 = Alert; keenly responsive.
+1b. LEVEL OF CONSCIOUSNESS (LOC) QUESTIONS 0 = Answers both questions correctly.
+1c. LEVEL OF CONSCIOUSNESS (LOC) COMMANDS 0 = Performs both tasks correctly.
+2. BEST GAZE 0 = Normal.
+3. VISUAL 0 = No visual loss.
+4. FACIAL PALSY 1 = Minor paralysis (flattened nasolabial fold, asymmetry on
+smiling).
+5a. MOTOR LEFT ARM 0 = No drift; limb holds 90 (or 45) degrees for full 10
+seconds.
+5b. MOTOR RIGHT ARM 0 = No drift; limb holds 90 (or 45) degrees for full 10
+seconds.
+6a. MOTOR LEFT LEG 0 = No drift; leg holds 30-degree position for full 5
+seconds.
+6b. MOTOR RIGHT LEG 0 = No drift; leg holds 30-degree position for full 5
+seconds.
+7. LIMB ATAXIA 0 = Absent.
+8. SENSORY 1 = Mild-to-moderate sensory loss; patient feels pinprick is less
+sharp or is dull on the affected side; or there is a loss of superficial pain
+with pinprick, but patient is aware of being touched.
+9. BEST LANGUAGE 1 = Mild-to-moderate aphasia; some obvious loss of fluency of
+facility of comprehension, without significant limitation on ideas expressed or
+form of expression. Reduction of speech and/or comprehension, however, makes
+conversation about provided materials difficult or impossible. For example, in
+conversation about provided materials, examiner can identify picture or naming
+card content from patient's response.
+10. DYSARTHRIA 1 = Mild-to-moderate dysarthria; patient slurs at least some
+words and, at worst, can be understood with some difficulty.
+11. EXTINCTION AND INATTENTION (formerly Neglect) 0 = No abnormality.
+
+NIH Stroke Scale rating for this patient:  Score = 1-5 (MINOR STROKE)
+Actual numeric score: 4
+=======================
+  STROKE SCALE (NIHSS) TOTAL SCORE:
+    Score:  3
+=======================
+NIH stroke score by neurologist =7
+NIH stroke score by writer =7 done at 10:00.
+=======================
+      ABCD2 risk rating for this patient:
+        Scoring range: 0-3  (LOW RISK)
+        Actual score: 1
+
+    NIH (National Institutes of Health) STROKE SCALE
+      Interval:
+        Baseline
+
+      1a. LEVEL OF CONSCIOUSNESS (LOC)
+        0 = Alert; keenly responsive.
+      1b. LEVEL OF CONSCIOUSNESS (LOC) QUESTIONS
+        0 = Answers both questions correctly.
+      1c. LEVEL OF CONSCIOUSNESS (LOC) COMMANDS
+        0 = Performs both tasks correctly.
+      2.  BEST GAZE
+        0 = Normal.
+      3.  VISUAL
+        0 = No visual loss.
+      4.  FACIAL PALSY
+        0 = Normal symmetrical movements.
+      5a. MOTOR LEFT ARM
+        0 = No drift; limb holds 90 (or 45) degrees for full 10 seconds.
+      5b. MOTOR RIGHT ARM
+        0 = No drift; limb holds 90 (or 45) degrees for full 10 seconds.
+      6a. MOTOR LEFT LEG
+        3 = No effort against gravity; leg falls to bed immediately.
+      6b. MOTOR RIGHT LEG
+        3 = No effort against gravity; leg falls to bed immediately.
+      7.  LIMB ATAXIA
+        1 = Present in one limb.
+      8.  SENSORY
+        0 = Normal; no sensory loss.
+      9.  BEST LANGUAGE
+        0 = No aphasia; normal.
+      10. DYSARTHRIA
+        0 = Normal.
+      11. EXTINCTION AND INATTENTION (formerly Neglect)
+        0 = No abnormality.
+      NIH Stroke Scale rating for this patient:
+        Score = 5-15   (MODERATE STROKE)
+        Actual numeric score: 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

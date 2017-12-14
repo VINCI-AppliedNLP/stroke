@@ -1,0 +1,10 @@
+#class IV Angina
+<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/> *<gov.va.vinci.angina.types.CCS/>
+#Angina Class 2
+<gov.va.vinci.angina.types.CCS/> *<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
+\[ *x *\]  *Stable Angina class\s*<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
+
+#ccs 1
+<gov.va.vinci.angina.types.CCS/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
+#(CCS functional class):  Level II
+<gov.va.vinci.angina.types.CCS/>\)*.{0,3} *<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
