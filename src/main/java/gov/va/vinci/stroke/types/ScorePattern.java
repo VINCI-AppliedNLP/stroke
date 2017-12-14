@@ -1,25 +1,25 @@
 
 
 /* First created by JCasGen Thu Dec 14 13:16:25 MST 2017 */
-package gov.va.vinci.leo.window.types;
+package gov.va.vinci.stroke.types;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-import org.apache.uima.jcas.tcas.Annotation;
+import gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType;
 
 
-/** Window Type
+/** 
  * Updated by JCasGen Thu Dec 14 13:16:25 MST 2017
  * XML source: /var/folders/8t/nmg009gn1y12522l1gmzl14w0000gp/T/leoTypeDescription_762ff8ec-51a6-4f56-80fa-ab4c38ef6dea5158208100751425053.xml
  * @generated */
-public class Window extends Annotation {
+public class ScorePattern extends AnnotationPatternType {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(Window.class);
+  public final static int typeIndexID = JCasRegistry.register(ScorePattern.class);
   /** @generated
    * @ordered 
    */
@@ -33,14 +33,14 @@ public class Window extends Annotation {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected Window() {/* intentionally empty block */}
+  protected ScorePattern() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated
    * @param addr low level Feature Structure reference
    * @param type the type of this Feature Structure 
    */
-  public Window(int addr, TOP_Type type) {
+  public ScorePattern(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
@@ -48,7 +48,7 @@ public class Window extends Annotation {
   /** @generated
    * @param jcas JCas to which this Feature Structure belongs 
    */
-  public Window(JCas jcas) {
+  public ScorePattern(JCas jcas) {
     super(jcas);
     readObject();   
   } 
@@ -58,7 +58,7 @@ public class Window extends Annotation {
    * @param begin offset to the begin spot in the SofA
    * @param end offset to the end spot in the SofA 
   */  
-  public Window(JCas jcas, int begin, int end) {
+  public ScorePattern(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);
@@ -74,28 +74,6 @@ public class Window extends Annotation {
    */
   private void readObject() {/*default - does nothing empty block */}
      
- 
-    
-  //*--------------*
-  //* Feature: Anchor
-
-  /** getter for Anchor - gets Anchor annotation around which the window was created
-   * @generated
-   * @return value of the feature 
-   */
-  public Annotation getAnchor() {
-    if (Window_Type.featOkTst && ((Window_Type)jcasType).casFeat_Anchor == null)
-      jcasType.jcas.throwFeatMissing("Anchor", "gov.va.vinci.leo.window.types.Window");
-    return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Window_Type)jcasType).casFeatCode_Anchor)));}
-    
-  /** setter for Anchor - sets Anchor annotation around which the window was created 
-   * @generated
-   * @param v value to set into the feature 
-   */
-  public void setAnchor(Annotation v) {
-    if (Window_Type.featOkTst && ((Window_Type)jcasType).casFeat_Anchor == null)
-      jcasType.jcas.throwFeatMissing("Anchor", "gov.va.vinci.leo.window.types.Window");
-    jcasType.ll_cas.ll_setRefValue(addr, ((Window_Type)jcasType).casFeatCode_Anchor, jcasType.ll_cas.ll_getFSRef(v));}    
-  }
+}
 
     

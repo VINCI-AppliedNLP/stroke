@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Feb 18 10:55:16 CST 2015 */
+/* First created by JCasGen Thu Dec 14 13:16:25 MST 2017 */
 package gov.va.vinci.leo.annotationpattern.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Wed Feb 18 10:55:16 CST 2015
- * XML source: H:/AppData/Local/Temp/leoTypeDescription_f053cd4c-5680-4123-8b32-8148371d82485383450208180565647.xml
+ * Updated by JCasGen Thu Dec 14 13:16:25 MST 2017
+ * XML source: /var/folders/8t/nmg009gn1y12522l1gmzl14w0000gp/T/leoTypeDescription_762ff8ec-51a6-4f56-80fa-ab4c38ef6dea5158208100751425053.xml
  * @generated */
 public class AnnotationPatternType extends Annotation {
   /** @generated
@@ -140,6 +140,50 @@ public class AnnotationPatternType extends Annotation {
     if (AnnotationPatternType_Type.featOkTst && ((AnnotationPatternType_Type)jcasType).casFeat_pattern == null)
       jcasType.jcas.throwFeatMissing("pattern", "gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType");
     jcasType.ll_cas.ll_setStringValue(addr, ((AnnotationPatternType_Type)jcasType).casFeatCode_pattern, v);}    
+   
+    
+  //*--------------*
+  //* Feature: target
+
+  /** getter for target - gets 
+   * @generated
+   * @return value of the feature 
+   */
+  public Annotation getTarget() {
+    if (AnnotationPatternType_Type.featOkTst && ((AnnotationPatternType_Type)jcasType).casFeat_target == null)
+      jcasType.jcas.throwFeatMissing("target", "gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType");
+    return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((AnnotationPatternType_Type)jcasType).casFeatCode_target)));}
+    
+  /** setter for target - sets  
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setTarget(Annotation v) {
+    if (AnnotationPatternType_Type.featOkTst && ((AnnotationPatternType_Type)jcasType).casFeat_target == null)
+      jcasType.jcas.throwFeatMissing("target", "gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType");
+    jcasType.ll_cas.ll_setRefValue(addr, ((AnnotationPatternType_Type)jcasType).casFeatCode_target, jcasType.ll_cas.ll_getFSRef(v));}    
+   
+    
+  //*--------------*
+  //* Feature: targetPattern
+
+  /** getter for targetPattern - gets 
+   * @generated
+   * @return value of the feature 
+   */
+  public String getTargetPattern() {
+    if (AnnotationPatternType_Type.featOkTst && ((AnnotationPatternType_Type)jcasType).casFeat_targetPattern == null)
+      jcasType.jcas.throwFeatMissing("targetPattern", "gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((AnnotationPatternType_Type)jcasType).casFeatCode_targetPattern);}
+    
+  /** setter for targetPattern - sets  
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setTargetPattern(String v) {
+    if (AnnotationPatternType_Type.featOkTst && ((AnnotationPatternType_Type)jcasType).casFeat_targetPattern == null)
+      jcasType.jcas.throwFeatMissing("targetPattern", "gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType");
+    jcasType.ll_cas.ll_setStringValue(addr, ((AnnotationPatternType_Type)jcasType).casFeatCode_targetPattern, v);}    
   }
 
     

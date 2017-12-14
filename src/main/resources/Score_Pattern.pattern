@@ -1,10 +1,20 @@
-#class IV Angina
-<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/> *<gov.va.vinci.angina.types.CCS/>
-#Angina Class 2
-<gov.va.vinci.angina.types.CCS/> *<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
-\[ *x *\]  *Stable Angina class\s*<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
+#class IV Stroke
+<gov.va.vinci.stroke.types.Score_word/> *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/> *<gov.va.vinci.stroke.types.Score/>
 
-#ccs 1
-<gov.va.vinci.angina.types.CCS/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
-#(CCS functional class):  Level II
-<gov.va.vinci.angina.types.CCS/>\)*.{0,3} *<gov.va.vinci.angina.types.CCS_word/> *<!anchor><gov.va.vinci.angina.types.CCS_score/><!anchor/>
+#Stroke Class 2
+<gov.va.vinci.stroke.types.Score/> *<gov.va.vinci.stroke.types.Score_word/> *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+
+#Score 1
+<gov.va.vinci.stroke.types.Score/> *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+#NIHSS: 0
+<gov.va.vinci.stroke.types.Score/>(\s|.){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+
+#NIH stroke score = 9
+<gov.va.vinci.stroke.types.Score/>(\s|.){0,5}\s*<gov.va.vinci.stroke.types.Score_word/>(\s|.){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+
+# NIH Stroke Score was a 0
+<gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+<gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+<gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*\w+\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+
+

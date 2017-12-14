@@ -1,5 +1,5 @@
-<gov.va.vinci.angina.types.Exclude/>
-<gov.va.vinci.angina.types.Exclude/> *<gov.va.vinci.angina.types.CCS/>
-<gov.va.vinci.angina.types.CCS/> *<gov.va.vinci.angina.types.Exclude/>
-<gov.va.vinci.angina.types.CCS_score/> *((/|x|-) *)?<gov.va.vinci.angina.types.Exclude/>
-(NYHA|New\s*york\s*heart\s*association)\s*class\s*<gov.va.vinci.angina.types.CCS_score/> *angina\s*(pectoris)?
+<gov.va.vinci.stroke.types.Exclude/>
+<gov.va.vinci.stroke.types.Exclude/> *<gov.va.vinci.stroke.types.Score/>
+<gov.va.vinci.stroke.types.Score/> *<gov.va.vinci.stroke.types.Exclude/>
+<gov.va.vinci.stroke.types.Score_score/> *((/|x|-) *)?<gov.va.vinci.stroke.types.Exclude/>
+CHADS2?(\s+|\w+|.){0,10}<gov.va.vinci.stroke.types.Score/>
