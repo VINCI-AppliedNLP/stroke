@@ -43,7 +43,7 @@ configuration {
 
     "Score-continuous" {
         expressions = [
-                '\\d{1,2}'
+                '\\b\\d{1,2}\\b'
         ]
         concept_feature_value = "Score_number"
         outputType = "gov.va.vinci.stroke.types.Score_score"
