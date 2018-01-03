@@ -117,6 +117,11 @@ public class Pipeline extends BasePipeline {
                 description.addType("gov.va.vinci.stroke.types.ExcludePattern", "", apaParentType);
                 description.addType("gov.va.vinci.stroke.types.ScorePattern", "", apaParentType);
 
+                description.addType("gov.va.vinci.kttr.types.NIH_Stroke_Score", "", "uima.tcas.Annotation");
+                description.addType("gov.va.vinci.kttr.types.Symptom_Term", "", "uima.tcas.Annotation");
+                description.addType("gov.va.vinci.kttr.types.Stroke_Term", "", "uima.tcas.Annotation");
+                description.addType("gov.va.vinci.kttr.types.TIA_Term", "", "uima.tcas.Annotation");
+
                 TypeDescription finalType = new TypeDescription_impl("gov.va.vinci.stroke.types.Logic", "", "uima.tcas.Annotation");
                 finalType.addFeature("Score_Value", "", "uima.cas.String");
                 description.addType(finalType);

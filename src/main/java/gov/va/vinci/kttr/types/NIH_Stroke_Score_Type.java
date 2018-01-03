@@ -1,6 +1,6 @@
 
-/* First created by JCasGen Tue Jan 02 17:41:50 CST 2018 */
-package gov.va.vinci.stroke.types;
+/* First created by JCasGen Tue Jan 02 17:41:49 CST 2018 */
+package gov.va.vinci.kttr.types;
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -9,12 +9,12 @@ import org.apache.uima.cas.impl.FSGenerator;
 import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
-import gov.va.vinci.leo.regex.types.RegularExpressionType_Type;
+import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Tue Jan 02 17:41:50 CST 2018
+ * Updated by JCasGen Tue Jan 02 17:41:49 CST 2018
  * @generated */
-public class Score_word_Type extends RegularExpressionType_Type {
+public class NIH_Stroke_Score_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
    */
@@ -24,25 +24,25 @@ public class Score_word_Type extends RegularExpressionType_Type {
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (Score_word_Type.this.useExistingInstance) {
+  			 if (NIH_Stroke_Score_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = Score_word_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = NIH_Stroke_Score_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new Score_word(addr, Score_word_Type.this);
-  			   Score_word_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new NIH_Stroke_Score(addr, NIH_Stroke_Score_Type.this);
+  			   NIH_Stroke_Score_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new Score_word(addr, Score_word_Type.this);
+        } else return new NIH_Stroke_Score(addr, NIH_Stroke_Score_Type.this);
   	  }
     };
   /** @generated */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = Score_word.typeIndexID;
+  public final static int typeIndexID = NIH_Stroke_Score.typeIndexID;
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("gov.va.vinci.stroke.types.Score_word");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("gov.va.vinci.kttr.types.NIH_Stroke_Score");
 
 
 
@@ -51,7 +51,7 @@ public class Score_word_Type extends RegularExpressionType_Type {
 	 * @param jcas JCas
 	 * @param casType Type 
 	 */
-  public Score_word_Type(JCas jcas, Type casType) {
+  public NIH_Stroke_Score_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

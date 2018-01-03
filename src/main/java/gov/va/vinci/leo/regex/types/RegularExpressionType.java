@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Thu Dec 14 13:16:25 MST 2017 */
+/* First created by JCasGen Tue Jan 02 17:41:49 CST 2018 */
 package gov.va.vinci.leo.regex.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Thu Dec 14 13:16:25 MST 2017
- * XML source: /var/folders/8t/nmg009gn1y12522l1gmzl14w0000gp/T/leoTypeDescription_762ff8ec-51a6-4f56-80fa-ab4c38ef6dea5158208100751425053.xml
+ * Updated by JCasGen Tue Jan 02 17:41:49 CST 2018
+ * XML source: C:/Users/VHASLC~1/AppData/Local/Temp/3/leoTypeDescription_fb56143a-294c-486f-b290-e45919313d247090472557553284325.xml
  * @generated */
 public class RegularExpressionType extends Annotation {
   /** @generated

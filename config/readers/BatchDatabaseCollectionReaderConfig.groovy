@@ -2,10 +2,10 @@ package readers
 
 import gov.va.vinci.leo.cr.BatchDatabaseCollectionReader;
 String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-String url = "jdbc:sqlserver://<database_engine>:1433;databasename=<database_name>;integratedSecurity=true"
+String url = "jdbc:sqlserver://vhacdwrb02:1433;databasename=MAVIN_ComputeLib;integratedSecurity=true"
 String username="";
 String password="";
-String query = "SELECT  DocID, DocText   FROM <database_name>.<schema>.<table_name> where RowNo > {min} and RowNo < {max}"
+String query = "select distinct  a.TIUDocumentSID, ReportText FROM [MAVIN_ComputeLib].[NLP_Stroke].[stroke_nlp_docs_in_window] a join [CDWwork].[TIU].[TIUDocument_8925] b  on a.tiudocumentsid=b.TIUDocumentSID"
 
 int startingIndex = 0;
 int endingIndex = 10;
@@ -17,6 +17,6 @@ reader = new BatchDatabaseCollectionReader(
         username,
         password,
         query,
-        "docid","doctext",   /// Make sure that the names of the fields are low case.
+        "tiudocumentsid","reporttext",   /// Make sure that the names of the fields are low case.
         startingIndex , endingIndex
         , batch_size)

@@ -1,32 +1,28 @@
 package listeners
 
-import gov.va.vinci.ef.listeners.BasicDatabaseListener
+import gov.va.vinci.stroke.listeners.BasicDatabaseListener
+
 
 int batchSize = 1000
-//String url = "jdbc:sqlserver://<database_engine>:1433;databasename=<database_name>;integratedSecurity=true"
-//String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
-String driver = "com.mysql.jdbc.Driver";
-String url = "jdbc:mysql://localhost:3306/demo"
-String dbUser = ""
-String dbPwd = ""
+String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+String url = "jdbc:sqlserver://vhacdwrb02:1433;databasename=MAVIN_ComputeLib;integratedSecurity=true"
+String dbUser="";
+String dbPwd="";
 
-String dbsName = "demo"
-String tableName = "EfOutput"
-incomingTypes = "gov.va.vinci.ef.types.Relation"
+String dbsName = "MAVIN_ComputeLib"
+String tableName = "[NLP_Stroke].[ScoreOut_20171220]"
+incomingTypes = "gov.va.vinci.stroke.types.ScorePattern"
 
 fieldList = [
         ["DocID", "0", "varchar(500)"],
         ["Term", "-1", "varchar(500)"],
-        ["Value", "-1", "varchar(100)"],
-        ["Value2", "-1", "varchar(100)"],
-        ["ValueString", "-1", "varchar(100)"],
+        ["anchor", "-1", "varchar(500)"],
         ["InstanceID", "-1", "int"],
-        ["Snippets", "-1", "varchar(8000)"],
+        ["Snippets", "-1", "varchar(800)"],
         ["SpanStart", "-1", "int"],
         ["SpanEnd", "-1", "int"]
 ]
 
-boolean dropExisting = false;
 listener = BasicDatabaseListener.createNewListener(
         driver,
         url,
@@ -38,6 +34,8 @@ listener = BasicDatabaseListener.createNewListener(
         fieldList,
         incomingTypes)
 
+
+boolean dropExisting = true;
 // Comment out the statement below if you want to add to the existing table
 listener.createTable(dropExisting);
 

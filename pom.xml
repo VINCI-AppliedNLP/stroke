@@ -85,6 +85,11 @@
         </dependency>
         <dependency>
             <groupId>gov.va.vinci</groupId>
+            <artifactId>leo-knowtator</artifactId>
+            <version>2017.03.1</version>
+        </dependency>
+        <dependency>
+            <groupId>gov.va.vinci</groupId>
             <artifactId>leo-window</artifactId>
             <version>2016.05.1</version>
         </dependency>

@@ -6,15 +6,18 @@ import gov.va.vinci.knowtator.model.KnowtatorToUimaTypeMap;
 def knowtatorToUimaTypeMap = { ->
     KnowtatorToUimaTypeMap map = new KnowtatorToUimaTypeMap();
     // map.addAnnotationTypeMap(String knowtatorType, String uimaType)
-    map.addAnnotationTypeMap("EjectionFraction_Value", "gov.va.vinci.kttr.types.RefSt_EfValue")
+    map.addAnnotationTypeMap("NIH_Stroke_Score", "gov.va.vinci.kttr.types.NIH_Stroke_Score")
+    map.addAnnotationTypeMap("Symptom_Term", "gov.va.vinci.kttr.types.Symptom_Term")
+    map.addAnnotationTypeMap("Stroke_Term", "gov.va.vinci.kttr.types.Stroke_Term")
+    map.addAnnotationTypeMap("TIA_Term", "gov.va.vinci.kttr.types.TIA_Term")
     // .................
     // map.addFeatureTypeMap(String knowtatorType, String knowtatorFeatureName, String uimaFeatureName)
     // ..................
     return map
 }
 
-knowtatorCorpusPath = "data/ReferenceStandard/corpus/"
-knowtatorXmlPath = "data/ReferenceStandard/saved/"
+knowtatorCorpusPath = "O:\\MAVIN_ComputeLib\\NLP_Stroke\\Test\\TestEHost\\Completed_Annotation\\corpus\\"
+knowtatorXmlPath = "O:\\MAVIN_ComputeLib\\NLP_Stroke\\Test\\TestEHost\\Completed_Annotation\\saved\\"
 
 reader = new KnowtatorCollectionReader(new File(knowtatorCorpusPath), new File(knowtatorXmlPath),
         knowtatorToUimaTypeMap(), true).produceCollectionReader()

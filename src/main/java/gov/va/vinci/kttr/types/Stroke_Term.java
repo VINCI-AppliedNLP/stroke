@@ -1,25 +1,25 @@
 
 
 /* First created by JCasGen Tue Jan 02 17:41:49 CST 2018 */
-package gov.va.vinci.stroke.types;
+package gov.va.vinci.kttr.types;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-import gov.va.vinci.leo.annotationpattern.types.AnnotationPatternType;
+import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
  * Updated by JCasGen Tue Jan 02 17:41:49 CST 2018
  * XML source: C:/Users/VHASLC~1/AppData/Local/Temp/3/leoTypeDescription_fb56143a-294c-486f-b290-e45919313d247090472557553284325.xml
  * @generated */
-public class ExcludePattern extends AnnotationPatternType {
+public class Stroke_Term extends Annotation {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(ExcludePattern.class);
+  public final static int typeIndexID = JCasRegistry.register(Stroke_Term.class);
   /** @generated
    * @ordered 
    */
@@ -33,14 +33,14 @@ public class ExcludePattern extends AnnotationPatternType {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected ExcludePattern() {/* intentionally empty block */}
+  protected Stroke_Term() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated
    * @param addr low level Feature Structure reference
    * @param type the type of this Feature Structure 
    */
-  public ExcludePattern(int addr, TOP_Type type) {
+  public Stroke_Term(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
@@ -48,7 +48,7 @@ public class ExcludePattern extends AnnotationPatternType {
   /** @generated
    * @param jcas JCas to which this Feature Structure belongs 
    */
-  public ExcludePattern(JCas jcas) {
+  public Stroke_Term(JCas jcas) {
     super(jcas);
     readObject();   
   } 
@@ -58,7 +58,7 @@ public class ExcludePattern extends AnnotationPatternType {
    * @param begin offset to the begin spot in the SofA
    * @param end offset to the end spot in the SofA 
   */  
-  public ExcludePattern(JCas jcas, int begin, int end) {
+  public Stroke_Term(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);
