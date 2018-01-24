@@ -17,4 +17,9 @@
 <gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 <gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*\w+\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 
+#NIH Stroke Scale Total:  1
+<gov.va.vinci.stroke.types.Score/>\s*(\w+|:| +){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+<gov.va.vinci.stroke.types.Score/><!anchor>\d\b<!anchor/>
+
+
 

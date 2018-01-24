@@ -96,6 +96,12 @@ public class Pipeline extends BasePipeline {
                 .setName("Score_Pattern_filter")
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
 
+        pipeline.addDelegate(new FilterAnnotator()
+                .setTypesToKeep(new String[]{"gov.va.vinci.stroke.types.ExcludePattern"})
+                .setTypesToDelete(new String[]{"gov.va.vinci.stroke.types.ScorePattern"})
+                .setRemoveOverlapping(true)
+                .getLeoAEDescriptor().setName("AnnotationFilter")
+                .addTypeSystemDescription(getLeoTypeSystemDescription()));
 
     }
 

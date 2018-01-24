@@ -24,7 +24,8 @@ configuration {
                 'NIHSS',
                 'NIH',
                 'STROKE SCALE \\(NIHSS\\) TOTAL SCORE',
-                'NIH Stroke Scale rating for this patient:'
+                'NIH Stroke Scale rating for this patient:',
+                'NIH Stroke Scale Total'
 
         ]
         outputType = "gov.va.vinci.stroke.types.Score"
@@ -32,10 +33,10 @@ configuration {
 
     "Concept_word" {
         expressions = [
-                'class', 'grade', 'level',
-                'score',
+                 'score\\b',
                 'scale',
-                'stage', '\\bis\\b']
+                 '\\bis\\b'
+        ]
 
         concept_feature_value = "Score_word"
         outputType = "gov.va.vinci.stroke.types.Score_word"
@@ -75,10 +76,12 @@ configuration {
                 '\\s*/?wks?',
                 '\\s*months?',
                 '\\s*minutes?',
+                '\\s*hours?',
                 '\\s*years?',
+                '\\s*(mm|cm|gram|hr)s?',
                 'x *(/ *)?(weeks?|wks?)', // stroke 2x/week
                 '.\\dx?/?\\s*(time|week|wk|day|month|minute|y\\w*)', // stroke 2-3x/week
-                '2/2',
+                '\\b\\d{1,2}/\\d{1,2}\\b',
                 '%',
                 '-[5-9]',
                 '\\d\\d/\\d\\d+',
@@ -92,7 +95,12 @@ configuration {
                 'Cincinnati\\s*prehospital',
                 'Cincinnati',
                 'ABCD',
-                'VAS'
+                'VAS',
+                '\\r\\n? *\\d{1,2}(\\)|\\.|\\-)',
+                '\\blabs',
+                '\\bage\\b',
+                '\\d+\\s*-\\s*\\d+'
+
         ]
         concept_feature_value = "Score_exclude"
         outputType = "gov.va.vinci.stroke.types.Exclude"
