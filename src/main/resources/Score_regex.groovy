@@ -100,6 +100,7 @@ configuration {
                 '\\blabs',
                 '\\bage\\b',
                 '\\d+\\s*-\\s*\\d+'
+                , '(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|june?|july?|aug(ust)?|sep(tember)|oct(ober)?|nov(ember)?|dec(ember)?)'
 
         ]
         concept_feature_value = "Score_exclude"

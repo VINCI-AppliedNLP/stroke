@@ -10,15 +10,15 @@ String dbUser="";
 String dbPwd="";
 
 String dbsName = "MAVIN_ComputeLib"
-String tableName = "[NLP_Stroke].[ScoreOut_20171220]"
+String tableName = "[NLP_Stroke].[ScoreOut_20180201]"
 incomingTypes = "gov.va.vinci.stroke.types.ScorePattern"
 
 fieldList = [
-        ["DocID", "0", "varchar(500)"],
-        ["Term", "-1", "varchar(500)"],
-        ["anchor", "-1", "varchar(500)"],
+        ["TIUDocumentSID", "0", "varchar(20)"],
+        ["AnnotationType", "-1", "varchar(50)"],
+        ["anchor", "-1", "varchar(50)"],
         ["InstanceID", "-1", "int"],
-        ["Snippets", "-1", "varchar(800)"],
+        ["Snippets", "-1", "varchar(500)"],
         ["SpanStart", "-1", "int"],
         ["SpanEnd", "-1", "int"]
 ]

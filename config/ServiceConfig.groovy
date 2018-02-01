@@ -19,7 +19,7 @@ descriptorDirectory = "config/desc"
 
 // Sync vs Async scaleout. isAsync=false means that the service will run as synchronous
 isAsync = false
-instanceNumber = 1
+instanceNumber = 10
 createTypes = false
 casPoolSize = 10
 

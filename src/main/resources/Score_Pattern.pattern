@@ -19,7 +19,7 @@
 
 #NIH Stroke Scale Total:  1
 <gov.va.vinci.stroke.types.Score/>\s*(\w+|:| +){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
-<gov.va.vinci.stroke.types.Score/><!anchor>\d\b<!anchor/>
+<gov.va.vinci.stroke.types.Score/> *<!anchor>\d\b<!anchor/>
 
 
 
