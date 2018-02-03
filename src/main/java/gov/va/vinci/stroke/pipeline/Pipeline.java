@@ -8,6 +8,7 @@ import gov.va.vinci.leo.filter.ae.FilterAnnotator;
 import gov.va.vinci.leo.regex.ae.RegexAnnotator;
 import gov.va.vinci.leo.window.ae.WindowAnnotator;
 import gov.va.vinci.leo.window.types.Window;
+import gov.va.vinci.stroke.ae.LogicAnnotator;
 import org.apache.uima.resource.metadata.TypeDescription;
 import org.apache.uima.resource.metadata.impl.TypeDescription_impl;
 
@@ -101,6 +102,13 @@ public class Pipeline extends BasePipeline {
                 .setTypesToDelete(new String[]{"gov.va.vinci.stroke.types.ScorePattern"})
                 .setRemoveOverlapping(true)
                 .getLeoAEDescriptor().setName("AnnotationFilter")
+                .addTypeSystemDescription(getLeoTypeSystemDescription()));
+        pipeline.addDelegate(new LogicAnnotator()
+                .setAnnotation_feature_name("anchor")
+                .setString_feature_name("anchorPattern")
+                .setInputTypes("gov.va.vinci.stroke.types.ScorePattern")
+                .getLeoAEDescriptor()
+                .setName("Score_Pattern")
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
 
     }
