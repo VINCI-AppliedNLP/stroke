@@ -28,3 +28,7 @@ gov.va.vinci.kttr.types.NIH_Stroke_Score -> gov.va.vinci.stroke.types.ScorePatte
          TP:          77         FP:          43         FN:          49  Precision:      0.6417     Recall:      0.6111         F1:      0.6260
         LTP:         109        LFP:          11        LFN:          17 LPrecision:      0.9083    LRecall:      0.8651         LF1      0.8862
 
+## 2008-03-05
+Processed SetId 1 and 2.
+CAS Count: 414325 Client finished in: 3:19:57.173.
+Validation on Set2 started

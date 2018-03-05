@@ -11,7 +11,7 @@ String timeStamp = LeoUtils.getTimestampDateDotTime().replaceAll("[.]", "_")
 
 
 String chexSchema = "NLP_validation"  //
-String chexSuffix = "_tiu_StrokeScore_2_" + timeStamp.substring(0, 8) // Change the suffix for each run, otherwise the data WILL BE OVERWRITTEN!
+String chexSuffix = "_tiu_StrokeScore_" + timeStamp.substring(0, 8) // Change the suffix for each run, otherwise the data WILL BE OVERWRITTEN!
 def chexTypes= [
         "gov.va.vinci.stroke.types.ScorePattern" ] // when blank, SimanListener outputs all annotations
 boolean chexOverwrite = true

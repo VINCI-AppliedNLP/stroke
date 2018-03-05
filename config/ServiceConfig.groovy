@@ -14,8 +14,8 @@ brokerURL = "tcp://localhost:61616"
 endpoint = "NIHSS_extractor"
 
 /** Tell the service to persist the descriptors that are generated, deletes them by default **/
-deleteOnExit = false
-descriptorDirectory = "config/desc"
+deleteOnExit = true
+//descriptorDirectory = "config/desc"
 
 // Sync vs Async scaleout. isAsync=false means that the service will run as synchronous
 isAsync = false

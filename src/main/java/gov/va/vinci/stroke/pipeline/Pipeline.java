@@ -77,7 +77,7 @@ public class Pipeline extends BasePipeline {
          * Second, add windows around the regexes. The window annotation will
          * extend 1 word (defined as separated by a whitespace character before
          * and after each character string.
-         */
+         * -- No purpose for the window.
         pipeline.addDelegate(new WindowAnnotator()
                 .setAnchorFeature("Anchor")
                 .setWindowSize(5)
@@ -85,7 +85,7 @@ public class Pipeline extends BasePipeline {
                 .setInputTypes("gov.va.vinci.stroke.types.Score")
                 .getLeoAEDescriptor().setName("AnnotationFilter")
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
-
+*/
         pipeline.addDelegate(new AnnotationPatternAnnotator()
                 .setCaseSensitive(false)
                 .setResource("src/main/resources/Score_Pattern.pattern")

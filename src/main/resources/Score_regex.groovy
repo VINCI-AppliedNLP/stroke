@@ -19,8 +19,8 @@ configuration {
 
     "Score_concept" {
         expressions = [
-                'NIH\\s*stroke',
-                'NIH ?SS',
+                'NIH+S*(\\s*(stroke\\s*|score\\s*|scale\\s*|total\\s*|severity\\s*)*)?',
+                'NIH( |-)?SS',
                 'NIH+S*\\b',
                 'STROKE SCALE \\(NIHSS\\) TOTAL SCORE',
                 'NIH Stroke Scale rating for this patient:',
@@ -29,7 +29,10 @@ configuration {
                 'NIH+S*\\s*stroke\\s*scale',
                 'NIH+S*\\s*stroke\\s*score',
                 'Enter NIHSS Score here',
-                'stroke scale *(score)?'
+                'stroke\\s*scale(\\s*score)?',
+                'National Institutes? of Health Stroke Scale \\(NIHSS\\) score',
+                'NIH+S*\\s*score',
+                '\\** NIH Stroke Scale: \\**\\s*'
 
         ]
         outputType = "gov.va.vinci.stroke.types.Score"
@@ -37,15 +40,18 @@ configuration {
 
     "Concept_word" {
         expressions = [
-                '\\bis\\b'
-                , '\\bwas\\b'
+                'scored?'
+                , '\\bis\\b'
+                , '\\bwas\\b(\\s*(scored|measured))?'
                 , '\\bof\\b'
                 , 'remain\\w*'
+                , 'continu\\w*'
                 , 'increas\\w*\\b(?! *by)'
                 , 'decreas\\w*\\b(?! *by)'
                 , '\\bimprov\\w*\\b'
                 , '\\bon discharge\\b'
                 , '\\bon admission'
+                , '\\bhere\\b'
         ]
 
         concept_feature_value = "Score_word"
@@ -54,7 +60,7 @@ configuration {
 
     "Score-continuous" {
         expressions = [
-                '\\b\\d{1,2}\\b',
+                '~?\\b\\d{1,2}\\b',
                 '(?<=nih ?ss)\\d{1,2}\\b'
         ]
         concept_feature_value = "Score_number"
@@ -63,7 +69,9 @@ configuration {
 
     "Score-categorical" {
         expressions = [
-                'zero'
+                'zero',
+                '\\bn/0\\b'
+                ,'\\blow\\b'
         ]
         concept_feature_value = "0"
         outputType = "gov.va.vinci.stroke.types.Score_score"
