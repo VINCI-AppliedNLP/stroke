@@ -10,14 +10,15 @@ String dbUser="";
 String dbPwd="";
 
 String dbsName = "MAVIN_ComputeLib"
-String tableName = "[NLP_Stroke].[ScoreOut_20180201]"
+String tableName = "[NLP_Stroke].[Temp_ScoreOut_20180304]"
 incomingTypes = "gov.va.vinci.stroke.types.ScorePattern"
 
 fieldList = [
         ["TIUDocumentSID", "0", "varchar(20)"],
-        ["AnnotationType", "-1", "varchar(50)"],
+       // ["AnnotationType", "-1", "varchar(50)"],
         ["anchor", "-1", "varchar(50)"],
-        ["InstanceID", "-1", "int"],
+        ["anchorPattern", "-1", "varchar(50)"],
+       // ["InstanceID", "-1", "int"],
         ["Snippets", "-1", "varchar(500)"],
         ["SpanStart", "-1", "int"],
         ["SpanEnd", "-1", "int"]
@@ -35,7 +36,7 @@ listener = BasicDatabaseListener.createNewListener(
         incomingTypes)
 
 
-boolean dropExisting = true;
+boolean dropExisting = false;
 // Comment out the statement below if you want to add to the existing table
 listener.createTable(dropExisting);
 

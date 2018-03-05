@@ -5,3 +5,6 @@
 CHADS2?(\s+|\w+|.){0,10}<gov.va.vinci.stroke.types.Score/>
 (&gt;|&lt;) *<gov.va.vinci.stroke.types.Score_score/>
 (previous|history of|hx)(\s*\w+)?\s*<gov.va.vinci.stroke.types.Score/>
+
+
+<gov.va.vinci.stroke.types.Score/>\s*(at|x) *<gov.va.vinci.stroke.types.Score_score/>

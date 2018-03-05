@@ -2,7 +2,7 @@ package listeners
 
 import gov.va.vinci.leo.listener.SimpleXmiListener
 
-String xmiDir = "O:\\MAVIN_ComputeLib\\NLP_Stroke\\Test\\NLP_Processing\\xmi"
+String xmiDir = "O:\\MAVIN_ComputeLib\\NLP_Stroke\\Test\\NLP_Processing\\xmi_20180304\\"
 
 if(!(new File(xmiDir)).exists()) (new File(xmiDir)).mkdirs()
 

@@ -7,7 +7,7 @@
 #Score 1
 <gov.va.vinci.stroke.types.Score/> *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 #NIHSS: 0
-<gov.va.vinci.stroke.types.Score/>(\s|.){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+<gov.va.vinci.stroke.types.Score/>( |=|:|-){0,5} *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 
 #NIH stroke score = 9
 <gov.va.vinci.stroke.types.Score/>(\s|.){0,5}\s*<gov.va.vinci.stroke.types.Score_word/>(\s|.){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
@@ -18,8 +18,12 @@
 <gov.va.vinci.stroke.types.Score/>\s*<gov.va.vinci.stroke.types.Score_word/>\s*\w+\s*\w+\s*\w+\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 
 #NIH Stroke Scale Total:  1
-<gov.va.vinci.stroke.types.Score/>\s*(\w+|:| +){0,5}\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
-<gov.va.vinci.stroke.types.Score/> *<!anchor>\d\b<!anchor/>
+<gov.va.vinci.stroke.types.Score/> *([a-z]+|:| +){0,5} *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+<gov.va.vinci.stroke.types.Score/>\s*(of|:|is|was|=)\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+#<gov.va.vinci.stroke.types.Score/> *<!anchor>\d\b<!anchor/>
+<gov.va.vinci.stroke.types.Score/>\s*<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
+HIN Stroke Scale(.|\s+){50,100}Total Score: *<!anchor><gov.va.vinci.stroke.types.Score_score/><!anchor/>
 
 
-
+Stroke
+    5 Warning Signs of Stroke

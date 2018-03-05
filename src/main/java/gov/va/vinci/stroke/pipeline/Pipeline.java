@@ -8,6 +8,7 @@ import gov.va.vinci.leo.filter.ae.FilterAnnotator;
 import gov.va.vinci.leo.regex.ae.RegexAnnotator;
 import gov.va.vinci.leo.window.ae.WindowAnnotator;
 import gov.va.vinci.leo.window.types.Window;
+import gov.va.vinci.stroke.ae.FilterLongerAnnotator;
 import gov.va.vinci.stroke.ae.LogicAnnotator;
 import org.apache.uima.resource.metadata.TypeDescription;
 import org.apache.uima.resource.metadata.impl.TypeDescription_impl;
@@ -66,7 +67,7 @@ public class Pipeline extends BasePipeline {
                 .setTypesToKeep(new String[]{"gov.va.vinci.stroke.types.ExcludePattern"})
                 .setTypesToDelete(new String[]{"gov.va.vinci.stroke.types.Score",
                         "gov.va.vinci.stroke.types.Score_score",
-                        "gov.va.vinci.stroke.types.Exclude",
+                //        "gov.va.vinci.stroke.types.Exclude",
                         "gov.va.vinci.stroke.types.Score_word"})
                 .setRemoveOverlapping(true)
                 .getLeoAEDescriptor().setName("AnnotationFilter")
@@ -86,17 +87,25 @@ public class Pipeline extends BasePipeline {
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
 
         pipeline.addDelegate(new AnnotationPatternAnnotator()
+                .setCaseSensitive(false)
                 .setResource("src/main/resources/Score_Pattern.pattern")
+
                 .setOutputType("gov.va.vinci.stroke.types.ScorePattern")
                 .getLeoAEDescriptor()
                 .setName("Score_Pattern")
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
-        pipeline.addDelegate(new FilterAnnotator()
+        /**/
+        pipeline.addDelegate(new FilterLongerAnnotator() // TODO: this module deletes longer annotations
                 .setTypesToKeep(new String[]{"gov.va.vinci.stroke.types.ScorePattern"})
                 .getLeoAEDescriptor()
                 .setName("Score_Pattern_filter")
                 .addTypeSystemDescription(getLeoTypeSystemDescription()));
-
+/**/
+        pipeline.addDelegate(new FilterAnnotator()
+                .setTypesToKeep(new String[]{"gov.va.vinci.stroke.types.ScorePattern"})
+                //.setRemoveOverlapping(true)
+                .getLeoAEDescriptor().setName("AnnotationFilter")
+                .addTypeSystemDescription(getLeoTypeSystemDescription()));
         pipeline.addDelegate(new FilterAnnotator()
                 .setTypesToKeep(new String[]{"gov.va.vinci.stroke.types.ExcludePattern"})
                 .setTypesToDelete(new String[]{"gov.va.vinci.stroke.types.ScorePattern"})

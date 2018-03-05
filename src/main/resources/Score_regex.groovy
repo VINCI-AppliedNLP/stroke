@@ -20,12 +20,16 @@ configuration {
     "Score_concept" {
         expressions = [
                 'NIH\\s*stroke',
-                'stroke',
-                'NIHSS',
-                'NIH',
+                'NIH ?SS',
+                'NIH+S*\\b',
                 'STROKE SCALE \\(NIHSS\\) TOTAL SCORE',
                 'NIH Stroke Scale rating for this patient:',
-                'NIH Stroke Scale Total'
+                'NIH Stroke Scale Total',
+                'stroke severity',
+                'NIH+S*\\s*stroke\\s*scale',
+                'NIH+S*\\s*stroke\\s*score',
+                'Enter NIHSS Score here',
+                'stroke scale *(score)?'
 
         ]
         outputType = "gov.va.vinci.stroke.types.Score"
@@ -33,9 +37,15 @@ configuration {
 
     "Concept_word" {
         expressions = [
-                 'score\\b',
-                'scale',
-                 '\\bis\\b'
+                '\\bis\\b'
+                , '\\bwas\\b'
+                , '\\bof\\b'
+                , 'remain\\w*'
+                , 'increas\\w*\\b(?! *by)'
+                , 'decreas\\w*\\b(?! *by)'
+                , '\\bimprov\\w*\\b'
+                , '\\bon discharge\\b'
+                , '\\bon admission'
         ]
 
         concept_feature_value = "Score_word"
@@ -44,7 +54,8 @@ configuration {
 
     "Score-continuous" {
         expressions = [
-                '\\b\\d{1,2}\\b'
+                '\\b\\d{1,2}\\b',
+                '(?<=nih ?ss)\\d{1,2}\\b'
         ]
         concept_feature_value = "Score_number"
         outputType = "gov.va.vinci.stroke.types.Score_score"
@@ -78,9 +89,9 @@ configuration {
                 '\\s*minutes?',
                 '\\s*hours?',
                 '\\s*years?',
-                '\\s*(mm|cm|gram|hr)s?',
+                '\\d+ *\\b(mm|cm|gram|hr|mg|f|c|d)s?\\b',
                 'x *(/ *)?(weeks?|wks?)', // stroke 2x/week
-                '.\\dx?/?\\s*(time|week|wk|day|month|minute|y\\w*)', // stroke 2-3x/week
+                '.\\dx?/?\\s*(time|we*k|day|month|minute|y\\w*)', // stroke 2-3x/week
                 '\\b\\d{1,2}/\\d{1,2}\\b',
                 '%',
                 '-[5-9]',
@@ -96,11 +107,33 @@ configuration {
                 'Cincinnati',
                 'ABCD',
                 'VAS',
-                '\\r\\n? *\\d{1,2}(\\)|\\.|\\-)',
+                '\\r\\n? *\\d{1,2}(\\)|\\.|\\-)', //most often this is item list, but sometimes it deletes relevant entries. Keeping it because FP > FN
                 '\\blabs',
                 '\\bage\\b',
                 '\\d+\\s*-\\s*\\d+'
-                , '(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|june?|july?|aug(ust)?|sep(tember)|oct(ober)?|nov(ember)?|dec(ember)?)'
+                , '\\b(jan(uary)?|feb(ruary)?|mar(ch)?|apr(il)?|may|june?|july?|aug(ust)?|sep(tember)|oct(ober)?|nov(ember)?|dec(ember)?)\\b'
+                , 'icd-\\d+'
+                , '\\+\\d+'
+                , 'stroke\\s*management'
+                , 'stroke\\s*education'
+                , 'stroke 1\\b',
+                'American\\s*Stroke\\s*Association',
+                '\\bhr\\b',
+                'Stroke LOC:',
+                'Stroke Motor Arm:',
+                'Stroke Motor Leg:',
+                'Stroke LOC Questions: ',
+                'Stroke Limb Ataxia:',
+                'Stroke LOC Commands:',
+                'Stroke Sensory:',
+                'Stroke Best Gaze:',
+                'Stroke Best Language:',
+                'Stroke Visual:',
+                'Stroke Dysarthria:',
+                'Stroke Facial Palsy:',
+                'Stroke Extinct/Inattend:',
+                'Level Of Consciousness'
+
 
         ]
         concept_feature_value = "Score_exclude"

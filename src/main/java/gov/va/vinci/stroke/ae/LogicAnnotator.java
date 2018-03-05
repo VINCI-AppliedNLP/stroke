@@ -61,8 +61,9 @@ public class LogicAnnotator extends LeoBaseAnnotator {
                 }
                 if (fs instanceof Annotation) {
                     featureCoveredText = ((Annotation)i.getFeatureValue(featureAnn)).getCoveredText();
+                    i.setFeatureValueFromString(featureStr, featureCoveredText ) ;
                 }
-                i.setFeatureValueFromString(featureStr, featureCoveredText ) ;
+
             }
         }
     }
