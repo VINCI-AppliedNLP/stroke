@@ -114,8 +114,7 @@ configuration {
                 'Cincinnati\\s*prehospital',
                 'Cincinnati',
                 'ABCD',
-                'VAS',
-                '\\r\\n? *\\d{1,2}(\\)|\\.|\\-)', //most often this is item list, but sometimes it deletes relevant entries. Keeping it because FP > FN
+                'VAS' ,
                 '\\blabs',
                 '\\bage\\b',
                 '\\d+\\s*-\\s*\\d+'
@@ -141,7 +140,9 @@ configuration {
                 'Stroke Facial Palsy:',
                 'Stroke Extinct/Inattend:',
                 'Level Of Consciousness'
-
+,
+                // Changes after Iter 3
+                '(?<=\\r\\n?) *\\d{1,2}(\\)|\\.|\\-)'  //most often this is item list, but sometimes it deletes relevant entries. Keeping it because FP > FN
 
         ]
         concept_feature_value = "Score_exclude"
