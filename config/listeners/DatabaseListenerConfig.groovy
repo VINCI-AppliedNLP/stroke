@@ -10,7 +10,7 @@ String dbUser="";
 String dbPwd="";
 
 String dbsName = "MAVIN_ComputeLib"
-String tableName = "[NLP_Stroke].[ScoreOut_20180304]"
+String tableName = "[NLP_Stroke].[ScoreOut_20180316]"
 incomingTypes = "gov.va.vinci.stroke.types.ScorePattern"
 
 fieldList = [

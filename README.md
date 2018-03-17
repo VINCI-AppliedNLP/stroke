@@ -43,3 +43,6 @@ gov.va.vinci.kttr.types.NIH_Stroke_Score -> gov.va.vinci.stroke.types.ScorePatte
          TP:           0         FP:         106         FN:         201  Precision:      0.0000     Recall:      0.0000         F1:      0.0000
         LTP:          98        LFP:           8        LFN:         103 LPrecision:      0.9245    LRecall:      0.4876         LF1      0.6384
 
+re-running the same process on the previous set:
+CAS Count: 200
+LTP:         109        LFP:          13        LFN:          17 LPrecision:      0.8934    LRecall:      0.8651         LF1      0.8790
