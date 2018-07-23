@@ -3,7 +3,7 @@
  */
 
 //URL for local UIMA broker
-brokerURL = "tcp://localhost:61616"
+brokerURL = "tcp://vhacdwdavdev01:61616"
 
 /**
  * The endpoint name of the UIMA AS service to use for processing. The service will be

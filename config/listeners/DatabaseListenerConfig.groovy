@@ -1,5 +1,6 @@
 package listeners
 
+import gov.va.vinci.leo.tools.LeoUtils
 import gov.va.vinci.stroke.listeners.BasicDatabaseListener
 
 
@@ -10,7 +11,9 @@ String dbUser="";
 String dbPwd="";
 
 String dbsName = "MAVIN_ComputeLib"
-String tableName = "[NLP_Stroke].[ScoreOut_20180316]"
+String timeStamp = LeoUtils.getTimestampDateDotTime().replaceAll("[.]", "_")
+String tableName = "[NLP_Stroke].[" + timeStamp.substring(0, 8) + "_Stroke_Score_Full_Cohort]"
+
 incomingTypes = "gov.va.vinci.stroke.types.ScorePattern"
 
 fieldList = [
@@ -35,5 +38,5 @@ listener = BasicDatabaseListener.createNewListener(
 
 boolean dropExisting = false;
 // Comment out the statement below if you want to add to the existing table
-//listener.createTable(dropExisting);
+listener.createTable(dropExisting);
 

@@ -1,5 +1,5 @@
 
-brokerURL	  ="tcp://localhost:61616";
+brokerURL	  ="tcp://vhacdwdavdev01:61616";
 endpoint   = "NIHSS_extractor"
 casPoolSize   = 300
 
